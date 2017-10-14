@@ -1,0 +1,515 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EA77A8441BE56C6700632DBE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77A8431BE56C6700632DBE /* AppDelegate.swift */; };
+		EA77A8461BE56C6700632DBE /* GameScene.sks in Resources */ = {isa = PBXBuildFile; fileRef = EA77A8451BE56C6700632DBE /* GameScene.sks */; };
+		EA77A8481BE56C6700632DBE /* GameScene.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77A8471BE56C6700632DBE /* GameScene.swift */; };
+		EA77A84A1BE56C6700632DBE /* GameViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77A8491BE56C6700632DBE /* GameViewController.swift */; };
+		EA77A84D1BE56C6700632DBE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA77A84B1BE56C6700632DBE /* Main.storyboard */; };
+		EA77A84F1BE56C6700632DBE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA77A84E1BE56C6700632DBE /* Assets.xcassets */; };
+		EA77A8521BE56C6700632DBE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EA77A8501BE56C6700632DBE /* LaunchScreen.storyboard */; };
+		EA77A85D1BE56C6700632DBE /* Jogo_CirculoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77A85C1BE56C6700632DBE /* Jogo_CirculoTests.swift */; };
+		EA77A8681BE56C6700632DBE /* Jogo_CirculoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA77A8671BE56C6700632DBE /* Jogo_CirculoUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EA77A8591BE56C6700632DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA77A8381BE56C6700632DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA77A83F1BE56C6700632DBE;
+			remoteInfo = "Jogo Circulo";
+		};
+		EA77A8641BE56C6700632DBE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EA77A8381BE56C6700632DBE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EA77A83F1BE56C6700632DBE;
+			remoteInfo = "Jogo Circulo";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EA77A8401BE56C6700632DBE /* Jogo Circulo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Jogo Circulo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA77A8431BE56C6700632DBE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EA77A8451BE56C6700632DBE /* GameScene.sks */ = {isa = PBXFileReference; lastKnownFileType = file.sks; path = GameScene.sks; sourceTree = "<group>"; };
+		EA77A8471BE56C6700632DBE /* GameScene.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameScene.swift; sourceTree = "<group>"; };
+		EA77A8491BE56C6700632DBE /* GameViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewController.swift; sourceTree = "<group>"; };
+		EA77A84C1BE56C6700632DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EA77A84E1BE56C6700632DBE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EA77A8511BE56C6700632DBE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EA77A8531BE56C6700632DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA77A8581BE56C6700632DBE /* Jogo CirculoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jogo CirculoTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA77A85C1BE56C6700632DBE /* Jogo_CirculoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jogo_CirculoTests.swift; sourceTree = "<group>"; };
+		EA77A85E1BE56C6700632DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EA77A8631BE56C6700632DBE /* Jogo CirculoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Jogo CirculoUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		EA77A8671BE56C6700632DBE /* Jogo_CirculoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Jogo_CirculoUITests.swift; sourceTree = "<group>"; };
+		EA77A8691BE56C6700632DBE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EA77A83D1BE56C6700632DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA77A8551BE56C6700632DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA77A8601BE56C6700632DBE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EA77A8371BE56C6700632DBE = {
+			isa = PBXGroup;
+			children = (
+				EA77A8421BE56C6700632DBE /* Jogo Circulo */,
+				EA77A85B1BE56C6700632DBE /* Jogo CirculoTests */,
+				EA77A8661BE56C6700632DBE /* Jogo CirculoUITests */,
+				EA77A8411BE56C6700632DBE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EA77A8411BE56C6700632DBE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EA77A8401BE56C6700632DBE /* Jogo Circulo.app */,
+				EA77A8581BE56C6700632DBE /* Jogo CirculoTests.xctest */,
+				EA77A8631BE56C6700632DBE /* Jogo CirculoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EA77A8421BE56C6700632DBE /* Jogo Circulo */ = {
+			isa = PBXGroup;
+			children = (
+				EA77A8431BE56C6700632DBE /* AppDelegate.swift */,
+				EA77A8451BE56C6700632DBE /* GameScene.sks */,
+				EA77A8471BE56C6700632DBE /* GameScene.swift */,
+				EA77A8491BE56C6700632DBE /* GameViewController.swift */,
+				EA77A84B1BE56C6700632DBE /* Main.storyboard */,
+				EA77A84E1BE56C6700632DBE /* Assets.xcassets */,
+				EA77A8501BE56C6700632DBE /* LaunchScreen.storyboard */,
+				EA77A8531BE56C6700632DBE /* Info.plist */,
+			);
+			path = "Jogo Circulo";
+			sourceTree = "<group>";
+		};
+		EA77A85B1BE56C6700632DBE /* Jogo CirculoTests */ = {
+			isa = PBXGroup;
+			children = (
+				EA77A85C1BE56C6700632DBE /* Jogo_CirculoTests.swift */,
+				EA77A85E1BE56C6700632DBE /* Info.plist */,
+			);
+			path = "Jogo CirculoTests";
+			sourceTree = "<group>";
+		};
+		EA77A8661BE56C6700632DBE /* Jogo CirculoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EA77A8671BE56C6700632DBE /* Jogo_CirculoUITests.swift */,
+				EA77A8691BE56C6700632DBE /* Info.plist */,
+			);
+			path = "Jogo CirculoUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EA77A83F1BE56C6700632DBE /* Jogo Circulo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA77A86C1BE56C6700632DBE /* Build configuration list for PBXNativeTarget "Jogo Circulo" */;
+			buildPhases = (
+				EA77A83C1BE56C6700632DBE /* Sources */,
+				EA77A83D1BE56C6700632DBE /* Frameworks */,
+				EA77A83E1BE56C6700632DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Jogo Circulo";
+			productName = "Jogo Circulo";
+			productReference = EA77A8401BE56C6700632DBE /* Jogo Circulo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EA77A8571BE56C6700632DBE /* Jogo CirculoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA77A86F1BE56C6700632DBE /* Build configuration list for PBXNativeTarget "Jogo CirculoTests" */;
+			buildPhases = (
+				EA77A8541BE56C6700632DBE /* Sources */,
+				EA77A8551BE56C6700632DBE /* Frameworks */,
+				EA77A8561BE56C6700632DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA77A85A1BE56C6700632DBE /* PBXTargetDependency */,
+			);
+			name = "Jogo CirculoTests";
+			productName = "Jogo CirculoTests";
+			productReference = EA77A8581BE56C6700632DBE /* Jogo CirculoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EA77A8621BE56C6700632DBE /* Jogo CirculoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EA77A8721BE56C6700632DBE /* Build configuration list for PBXNativeTarget "Jogo CirculoUITests" */;
+			buildPhases = (
+				EA77A85F1BE56C6700632DBE /* Sources */,
+				EA77A8601BE56C6700632DBE /* Frameworks */,
+				EA77A8611BE56C6700632DBE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EA77A8651BE56C6700632DBE /* PBXTargetDependency */,
+			);
+			name = "Jogo CirculoUITests";
+			productName = "Jogo CirculoUITests";
+			productReference = EA77A8631BE56C6700632DBE /* Jogo CirculoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EA77A8381BE56C6700632DBE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0710;
+				LastUpgradeCheck = 0710;
+				ORGANIZATIONNAME = classroomM;
+				TargetAttributes = {
+					EA77A83F1BE56C6700632DBE = {
+						CreatedOnToolsVersion = 7.1;
+					};
+					EA77A8571BE56C6700632DBE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA77A83F1BE56C6700632DBE;
+					};
+					EA77A8621BE56C6700632DBE = {
+						CreatedOnToolsVersion = 7.1;
+						TestTargetID = EA77A83F1BE56C6700632DBE;
+					};
+				};
+			};
+			buildConfigurationList = EA77A83B1BE56C6700632DBE /* Build configuration list for PBXProject "Jogo Circulo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EA77A8371BE56C6700632DBE;
+			productRefGroup = EA77A8411BE56C6700632DBE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EA77A83F1BE56C6700632DBE /* Jogo Circulo */,
+				EA77A8571BE56C6700632DBE /* Jogo CirculoTests */,
+				EA77A8621BE56C6700632DBE /* Jogo CirculoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EA77A83E1BE56C6700632DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA77A8461BE56C6700632DBE /* GameScene.sks in Resources */,
+				EA77A8521BE56C6700632DBE /* LaunchScreen.storyboard in Resources */,
+				EA77A84F1BE56C6700632DBE /* Assets.xcassets in Resources */,
+				EA77A84D1BE56C6700632DBE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA77A8561BE56C6700632DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA77A8611BE56C6700632DBE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EA77A83C1BE56C6700632DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA77A8481BE56C6700632DBE /* GameScene.swift in Sources */,
+				EA77A84A1BE56C6700632DBE /* GameViewController.swift in Sources */,
+				EA77A8441BE56C6700632DBE /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA77A8541BE56C6700632DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA77A85D1BE56C6700632DBE /* Jogo_CirculoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EA77A85F1BE56C6700632DBE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EA77A8681BE56C6700632DBE /* Jogo_CirculoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EA77A85A1BE56C6700632DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA77A83F1BE56C6700632DBE /* Jogo Circulo */;
+			targetProxy = EA77A8591BE56C6700632DBE /* PBXContainerItemProxy */;
+		};
+		EA77A8651BE56C6700632DBE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EA77A83F1BE56C6700632DBE /* Jogo Circulo */;
+			targetProxy = EA77A8641BE56C6700632DBE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EA77A84B1BE56C6700632DBE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA77A84C1BE56C6700632DBE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EA77A8501BE56C6700632DBE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EA77A8511BE56C6700632DBE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EA77A86A1BE56C6700632DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EA77A86B1BE56C6700632DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EA77A86D1BE56C6700632DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jogo Circulo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.andrebrilho.Jogo-Circulo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EA77A86E1BE56C6700632DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "Jogo Circulo/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.andrebrilho.Jogo-Circulo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		EA77A8701BE56C6700632DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Jogo CirculoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.andrebrilho.Jogo-CirculoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jogo Circulo.app/Jogo Circulo";
+			};
+			name = Debug;
+		};
+		EA77A8711BE56C6700632DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "Jogo CirculoTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.andrebrilho.Jogo-CirculoTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Jogo Circulo.app/Jogo Circulo";
+			};
+			name = Release;
+		};
+		EA77A8731BE56C6700632DBE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				INFOPLIST_FILE = "Jogo CirculoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.andrebrilho.Jogo-CirculoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jogo Circulo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		EA77A8741BE56C6700632DBE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "Jogo CirculoUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "br.com.andrebrilho.Jogo-CirculoUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "Jogo Circulo";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EA77A83B1BE56C6700632DBE /* Build configuration list for PBXProject "Jogo Circulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA77A86A1BE56C6700632DBE /* Debug */,
+				EA77A86B1BE56C6700632DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EA77A86C1BE56C6700632DBE /* Build configuration list for PBXNativeTarget "Jogo Circulo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA77A86D1BE56C6700632DBE /* Debug */,
+				EA77A86E1BE56C6700632DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA77A86F1BE56C6700632DBE /* Build configuration list for PBXNativeTarget "Jogo CirculoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA77A8701BE56C6700632DBE /* Debug */,
+				EA77A8711BE56C6700632DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		EA77A8721BE56C6700632DBE /* Build configuration list for PBXNativeTarget "Jogo CirculoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA77A8731BE56C6700632DBE /* Debug */,
+				EA77A8741BE56C6700632DBE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EA77A8381BE56C6700632DBE /* Project object */;
+}
